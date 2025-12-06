@@ -1,0 +1,10 @@
+name = "constructive_analysis"
+version = "0.1.0"
+defaultTargets = ["constructive_analysis"]
+
+[[lean_lib]]
+name = "ConstructiveAnalysis"
+
+[[lean_exe]]
+name = "constructive_analysis"
+root = "Main"
